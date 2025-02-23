@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #020817
+  --foreground: #171717;
+}
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  // This defines what 1rem is
+  // font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+}
+
+body {
+  color: #fff;
+  background: #020817;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 600px;
+}
+
+.layoutContainer {
+  width: 100%;
+  max-width: 64%;
+  margin: auto;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.625rem;
+}

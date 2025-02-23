@@ -1,0 +1,58 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  // gap: 10px;
+  .container {
+    display: flex;
+    flex: 1;
+    gap: 24px;
+    // justify-content: space-between;
+
+    .imageContainer {
+      overflow: hidden;
+      display: inline-block;
+      border-radius: 100%;
+      margin-top: 32px;
+      height: 96px;
+      width: 96px;
+    }
+
+    .informationContainer {
+      margin-top: 32px;
+      .subText {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        margin-bottom: 1rem;
+        margin-top: 4px;
+        color: rgb(156 163 175);
+      }
+      .innerCard {
+        max-width: 666px;
+        width: 100%;
+        max-height: max-content;
+        background-color: #1e2330;
+        .para {
+          color: #d1d5db;
+        }
+      }
+    }
+  }
+
+  .githubCard {
+    max-width: 405px;
+    width: 100%;
+
+    .stats {
+      display: flex;
+      justify-content: space-between;
+      gap: 5px;
+      margin-top: 12px;
+    }
+  }
+
+  .githubText {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #2563eb;
+  }
+}
